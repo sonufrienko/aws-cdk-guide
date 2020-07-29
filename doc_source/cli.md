@@ -190,7 +190,7 @@ You may also bootstrap a specific environment\. Credentials must be configured \
 ```
 cdk bootstrap ACCOUNT-NUMBER/REGION # e.g.
 cdk bootstrap 1111111111/us-east-1
-aws bootstrap --profile test 1111111111/us-east-1
+cdk bootstrap --profile test 1111111111/us-east-1
 ```
 
 **Important**  
